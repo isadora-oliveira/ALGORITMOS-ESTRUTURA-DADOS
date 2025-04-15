@@ -38,5 +38,5 @@ class TelaCategoria(QMainWindow):
         if(nome != ""): #se o ano não for vazio,
             cat = Categoria(nome)
             self.listaCategorias.append(cat)    
-            #self.telaCarro.carregarCategorias()
+            self.telaCarro.carregarCategorias()
         QMessageBox.information(self, "Categoria salva", str(cat) )
