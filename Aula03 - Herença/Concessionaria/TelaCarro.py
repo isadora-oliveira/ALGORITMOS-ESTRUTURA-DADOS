@@ -1,7 +1,7 @@
 import sys 
 from PyQt5.QtWidgets import *
-from TelaCategoria import TelaVeiculo
-from Categoria import Carro
+from TelaCategoria import TelaCategoria
+from Categoria import Categoria
 
 
 class TelaCarro (TelaVeiculo):
